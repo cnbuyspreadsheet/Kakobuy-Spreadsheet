@@ -60,17 +60,17 @@ https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
 
 | Category | Focus | Guide | Directory |
 |---|---|---|---|
-| 👟 Shoes | Sneakers, runners, boots, sizing QC | [Shoes Guide](./category/shoes.html) | [Open Directory](https://astroreps.com/category/shoes) |
-| 🧥 Hoodies & Sweaters | Heavyweight fleece, embroidered graphics, fit notes | [Hoodies Guide](./category/hoodies-sweaters.html) | [Open Directory](https://astroreps.com/category/hoodies-sweaters) |
-| 👕 T-Shirts | Graphic tees, blanks, print durability | [T-Shirts Guide](./category/t-shirts.html) | [Open Directory](https://astroreps.com/category/t-shirts) |
-| 🧣 Jackets | Bombers, puffers, denim, seasonal layers | [Jackets Guide](./category/jackets.html) | [Open Directory](https://astroreps.com/category/jackets) |
-| 👖 Pants & Shorts | Cargo, denim, track pants, relaxed fits | [Pants Guide](./category/pants-shorts.html) | [Open Directory](https://astroreps.com/category/pants-shorts) |
-| 🧢 Headwear | Caps, beanies, bucket hats | [Headwear Guide](./category/headwear.html) | [Open Directory](https://astroreps.com/category/headwear) |
-| 🧳 Sets | Tracksuits, matching outfits, coordinated fits | [Sets Guide](./category/sets.html) | [Open Directory](https://astroreps.com/category/sets) |
-| 👙 Underwear | Boxers, socks, everyday basics | [Underwear Guide](./category/underwear-underpants.html) | [Open Directory](https://astroreps.com/category/underwear-underpants) |
-| ⚽ Jersey | Football, basketball, retro jerseys | [Jersey Guide](./category/jersey.html) | [Open Directory](https://astroreps.com/category/jersey) |
-| 💍 Accessories | Belts, bags, sunglasses, wallets | [Accessories Guide](./category/accessories.html) | [Open Directory](https://astroreps.com/category/accessories) |
-| 📦 Others | Mixed finds and uncategorized picks | [Other Finds](./category/others.html) | [Open Directory](https://astroreps.com/category/others) |
+| 👟 Shoes | Sneakers, runners, boots, sizing QC | [Shoes Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/shoes.html) | [Open Directory](https://astroreps.com/category/shoes) |
+| 🧥 Hoodies & Sweaters | Heavyweight fleece, embroidered graphics, fit notes | [Hoodies Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/hoodies-sweaters.html) | [Open Directory](https://astroreps.com/category/hoodies-sweaters) |
+| 👕 T-Shirts | Graphic tees, blanks, print durability | [T-Shirts Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/t-shirts.html) | [Open Directory](https://astroreps.com/category/t-shirts) |
+| 🧣 Jackets | Bombers, puffers, denim, seasonal layers | [Jackets Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/jackets.html) | [Open Directory](https://astroreps.com/category/jackets) |
+| 👖 Pants & Shorts | Cargo, denim, track pants, relaxed fits | [Pants Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/pants-shorts.html) | [Open Directory](https://astroreps.com/category/pants-shorts) |
+| 🧢 Headwear | Caps, beanies, bucket hats | [Headwear Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/headwear.html) | [Open Directory](https://astroreps.com/category/headwear) |
+| 🧳 Sets | Tracksuits, matching outfits, coordinated fits | [Sets Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/sets.html) | [Open Directory](https://astroreps.com/category/sets) |
+| 👙 Underwear | Boxers, socks, everyday basics | [Underwear Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/underwear-underpants.html) | [Open Directory](https://astroreps.com/category/underwear-underpants) |
+| ⚽ Jersey | Football, basketball, retro jerseys | [Jersey Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/jersey.html) | [Open Directory](https://astroreps.com/category/jersey) |
+| 💍 Accessories | Belts, bags, sunglasses, wallets | [Accessories Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/accessories.html) | [Open Directory](https://astroreps.com/category/accessories) |
+| 📦 Others | Mixed finds and uncategorized picks | [Other Finds](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/others.html) | [Open Directory](https://astroreps.com/category/others) |
 
 </details>
 
@@ -80,16 +80,16 @@ https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
 
 The project includes practical guides for the most common KakoBuy research questions:
 
-- [Is KakoBuy Legit?](./blog/is-kakobuy-legit.html)
-- [Is KakoBuy Safe?](./blog/is-kakobuy-safe.html)
-- [Best KakoBuy Spreadsheet Picks](./blog/best-kakobuy-spreadsheet.html)
-- [KakoBuy Shipping Calculator Guide](./blog/kakobuy-shipping-calculator.html)
-- [How Long Does KakoBuy Take to Ship?](./blog/how-long-does-kakobuy-take-to-ship.html)
-- [KakoBuy Spreadsheet Reddit Research](./blog/kakobuy-spreadsheet-reddit.html)
-- [KakoBuy Coupon Codes](./blog/kakobuy-coupon-codes.html)
-- [KakoBuy Beginner Guide](./blog/kakobuy-beginner-guide.html)
-- [KakoBuy QC Checklist](./blog/kakobuy-qc-checklist.html)
-- [How to Order from KakoBuy](./blog/how-to-order-kakobuy.html)
+- [Is KakoBuy Legit?](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/is-kakobuy-legit.html)
+- [Is KakoBuy Safe?](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/is-kakobuy-safe.html)
+- [Best KakoBuy Spreadsheet Picks](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/best-kakobuy-spreadsheet.html)
+- [KakoBuy Shipping Calculator Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/kakobuy-shipping-calculator.html)
+- [How Long Does KakoBuy Take to Ship?](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/how-long-does-kakobuy-take-to-ship.html)
+- [KakoBuy Spreadsheet Reddit Research](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/kakobuy-spreadsheet-reddit.html)
+- [KakoBuy Coupon Codes](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/kakobuy-coupon-codes.html)
+- [KakoBuy Beginner Guide](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/kakobuy-beginner-guide.html)
+- [KakoBuy QC Checklist](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/kakobuy-qc-checklist.html)
+- [How to Order from KakoBuy](https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/how-to-order-kakobuy.html)
 
 ---
 
