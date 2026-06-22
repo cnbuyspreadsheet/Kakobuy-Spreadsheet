@@ -8,9 +8,18 @@ SITE_DIR="/home/zrg/kakobuy-spreadsheet"
 
 cd "$SITE_DIR"
 
-printf 'GitHub token: '
-read -r -s TOKEN
-printf '\n'
+# SECURITY: Do not hardcode GitHub tokens or passwords in this file.
+# Usage without prompts:
+#   export GITHUB_TOKEN='your_github_pat_here'
+#   ./deploy_to_github_pages.sh
+#
+# If GITHUB_TOKEN is not set, the script prompts for it without echoing input.
+TOKEN="${GITHUB_TOKEN:-}"
+if [ -z "$TOKEN" ]; then
+  printf 'GitHub token: '
+  read -r -s TOKEN
+  printf '\n'
+fi
 
 if [ -z "$TOKEN" ]; then
   echo "Token is required." >&2
