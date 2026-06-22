@@ -4,42 +4,36 @@
   <img src="https://otmceyuflvtidwarawop.supabase.co/storage/v1/object/public/agents/kakobuy.png" alt="KakoBuy Spreadsheet" width="96" height="96">
 </p>
 
-<h2 align="center">The Independent KakoBuy Spreadsheet Intelligence Hub</h2>
+<h2 align="center">The Independent KakoBuy Finds & QC Research Hub</h2>
 
 <p align="center">
-  A fast, structured, SEO-ready static resource for curated KakoBuy finds, QC research, shipping guides, and agent-shopping education.
+  A curated gateway for KakoBuy finds, QC photos, sizing notes, shipping guidance, and smarter agent-shopping decisions.
 </p>
 
 <p align="center">
-  <a href="https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/"><strong>🚀 Open Live Site</strong></a>
+  <a href="https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/"><strong>🚀 Open KakoBuy Spreadsheet</strong></a>
   ·
   <a href="https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/category/shoes.html">Browse Categories</a>
   ·
-  <a href="https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/index.html">Read Guides</a>
+  <a href="https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/blog/index.html">Read Buying Guides</a>
 </p>
 
 <p align="center">
-  <img alt="Static HTML" src="https://img.shields.io/badge/Static-HTML%2FCSS%2FJS-2563eb?style=for-the-badge">
-  <img alt="GitHub Pages" src="https://img.shields.io/badge/Hosted_on-GitHub_Pages-111827?style=for-the-badge&logo=github">
-  <img alt="SEO Ready" src="https://img.shields.io/badge/SEO-Schema_%2B_Sitemap-10b981?style=for-the-badge">
-  <img alt="No Build Tools" src="https://img.shields.io/badge/No-Build_Tools-f59e0b?style=for-the-badge">
+  <img alt="Curated Finds" src="https://img.shields.io/badge/Curated-Finds-2563eb?style=for-the-badge">
+  <img alt="QC Focused" src="https://img.shields.io/badge/QC-Focused-10b981?style=for-the-badge">
+  <img alt="Updated 2026" src="https://img.shields.io/badge/Updated-2026-f59e0b?style=for-the-badge">
+  <img alt="Independent Guide" src="https://img.shields.io/badge/Independent-Guide-111827?style=for-the-badge">
 </p>
 
 ---
 
-## What This Project Is
+## Overview
 
-**KakoBuy Spreadsheet 2026** is a lightweight static website built to help shoppers discover and understand agent-ready finds across popular fashion and lifestyle categories.
+**KakoBuy Spreadsheet 2026** is an independent discovery resource built for shoppers who want a cleaner way to research finds before ordering through an agent.
 
-Instead of being a raw spreadsheet dump, this project works like a polished discovery portal:
+It brings together category pages, QC guidance, shipping education, and practical buyer notes so users can move from “what should I buy?” to “what should I check before ordering?” with more confidence.
 
-- category landing pages for focused browsing
-- long-form guides for search intent coverage
-- QC, sizing, shipping, and safety education
-- structured metadata for crawlability
-- fast GitHub Pages deployment with no framework dependency
-
-Live URL:
+Live site:
 
 ```text
 https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
@@ -47,15 +41,15 @@ https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
 
 ---
 
-## Site Intelligence Layer
+## What You Can Find
 
-| Layer | What It Covers | Why It Matters |
-|---|---|---|
-| Category Directory | Shoes, hoodies, tees, jackets, accessories, and more | Helps users jump directly into the right type of find |
-| QC Education | Photo review, sizing checks, measurement tips | Reduces bad purchases and avoidable mistakes |
-| Shipping Guides | Delivery timelines, coupons, calculators, haul planning | Helps users estimate cost and timing before ordering |
-| Trust Content | Safety, legitimacy, privacy, beginner guides | Supports informed decision-making |
-| Technical SEO | Canonicals, sitemap, robots, JSON-LD, FAQ schema | Makes the site easier for search engines to understand |
+| Area | What It Helps With |
+|---|---|
+| Category browsing | Jump into shoes, hoodies, jackets, tees, accessories, jerseys, and more |
+| QC preparation | Learn what to inspect before approving warehouse photos |
+| Sizing research | Understand measurement photos, Asian sizing, and fit-risk categories |
+| Shipping planning | Compare timeline expectations, coupons, haul weight, and delivery factors |
+| Buyer confidence | Read safety, legitimacy, beginner, and mistake-avoidance guides |
 
 ---
 
@@ -64,7 +58,7 @@ https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
 <details open>
 <summary><strong>Browse the core KakoBuy Spreadsheet categories</strong></summary>
 
-| Category | Focus | Local Page | Directory Link |
+| Category | Focus | Guide | Directory |
 |---|---|---|---|
 | 👟 Shoes | Sneakers, runners, boots, sizing QC | [Shoes Guide](./category/shoes.html) | [Open Directory](https://astroreps.com/category/shoes) |
 | 🧥 Hoodies & Sweaters | Heavyweight fleece, embroidered graphics, fit notes | [Hoodies Guide](./category/hoodies-sweaters.html) | [Open Directory](https://astroreps.com/category/hoodies-sweaters) |
@@ -82,9 +76,9 @@ https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
 
 ---
 
-## Editorial Guides Included
+## Featured Buying Guides
 
-This repository includes a full content cluster around KakoBuy search intent:
+The project includes practical guides for the most common KakoBuy research questions:
 
 - [Is KakoBuy Legit?](./blog/is-kakobuy-legit.html)
 - [Is KakoBuy Safe?](./blog/is-kakobuy-safe.html)
@@ -99,137 +93,56 @@ This repository includes a full content cluster around KakoBuy search intent:
 
 ---
 
-## Technical Profile
+## How to Use the Spreadsheet
 
-This project is intentionally simple and deployment-friendly.
+1. **Choose a category**  
+   Start with the item type you care about most: shoes, hoodies, jackets, accessories, or another category.
 
-```text
-Framework:       None
-Build step:      None
-Runtime:         Static files only
-Host target:     GitHub Pages
-Languages:       HTML, CSS, JavaScript
-Primary files:   36 HTML pages
-Categories:      11 category pages
-Guides:          21 blog / guide pages
-Assets:          CSS, JS, local images, favicon/logo
-```
+2. **Read the buyer notes**  
+   Check the guide content for sizing risks, QC reminders, shipping considerations, and common mistakes.
 
-### SEO Features
+3. **Open the directory**  
+   Use the category directory link to browse available finds and compare options.
 
-- canonical URLs configured for GitHub Pages
-- `sitemap.xml` included
-- `robots.txt` included and crawler-friendly
-- Open Graph metadata
-- Twitter card metadata
-- FAQPage JSON-LD
-- BreadcrumbList JSON-LD
-- Article JSON-LD on guide pages
-- semantic headings and internal links
-- static HTML content visible without JavaScript
+4. **Review before ordering**  
+   Always inspect seller details, price, size chart, recent feedback, and QC photos before shipping anything internationally.
 
 ---
 
-## Deployment
+## Why This Resource Exists
 
-This site is designed to deploy directly from the repository root on GitHub Pages.
+Most agent-shopping mistakes happen before checkout:
 
-Expected Pages configuration:
+- choosing a seller without recent feedback
+- ignoring size charts
+- approving QC photos too quickly
+- forgetting shipping cost and parcel weight
+- using outdated links or old recommendations
 
-```text
-Source: Deploy from a branch
-Branch: main
-Folder: / root
-```
-
-Final URL:
-
-```text
-https://cnbuyspreadsheet.github.io/Kakobuy-Spreadsheet/
-```
-
-Local preview:
-
-```bash
-cd /home/zrg/kakobuy-spreadsheet
-python3 -m http.server 8080
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8080/
-```
-
----
-
-## Project Structure
-
-```text
-.
-├── index.html
-├── about.html
-├── contact.html
-├── privacy-policy.html
-├── robots.txt
-├── sitemap.xml
-├── category/
-│   ├── shoes.html
-│   ├── hoodies-sweaters.html
-│   ├── t-shirts.html
-│   ├── jackets.html
-│   └── ...
-├── blog/
-│   ├── index.html
-│   ├── is-kakobuy-legit.html
-│   ├── is-kakobuy-safe.html
-│   ├── kakobuy-shipping-calculator.html
-│   └── ...
-└── assets/
-    ├── css/styles.css
-    ├── js/main.js
-    ├── js/navigation.js
-    ├── js/theme.js
-    └── images/
-```
-
----
-
-## Quality Checklist
-
-Before deployment, the project is checked for:
-
-- no `.html.html` generated links
-- no stale canonical domains
-- no broken local links
-- no blocked `/assets/` path in robots.txt
-- valid JSON-LD blocks
-- valid image files
-- GitHub Pages URL alignment
-- outbound directory links using `target="_blank" rel="noopener nofollow"`
+This resource is designed to reduce those mistakes by giving shoppers a more organized starting point.
 
 ---
 
 ## FAQ
 
 <details>
-<summary><strong>Is this a spreadsheet or a website?</strong></summary>
+<summary><strong>Is this a spreadsheet or a guide?</strong></summary>
 
-It is a static website built around the spreadsheet concept. It gives users category pages, guides, QC education, and links into curated directories instead of forcing them through a raw sheet interface.
-
-</details>
-
-<details>
-<summary><strong>Does this require a backend?</strong></summary>
-
-No. The project is pure static HTML/CSS/JS and can be hosted directly on GitHub Pages.
+It is both a spreadsheet-style category hub and a buyer guide. The goal is to make discovery easier while also explaining what to check before ordering.
 
 </details>
 
 <details>
-<summary><strong>Can search engines crawl the content?</strong></summary>
+<summary><strong>Are QC photos important?</strong></summary>
 
-Yes. The core content is static HTML, and the project includes sitemap, robots, canonical tags, and schema markup.
+Yes. QC photos are one of the most important steps in agent shopping. They help you inspect shape, stitching, tags, sizing, flaws, and whether the item matches your expectations before international shipping.
+
+</details>
+
+<details>
+<summary><strong>Which categories are most popular?</strong></summary>
+
+Shoes, hoodies, jackets, jerseys, and accessories are usually among the most searched categories, but the best choice depends on your budget, sizing confidence, and shipping plan.
 
 </details>
 
@@ -244,11 +157,11 @@ No. This is an independent planning and discovery resource for shoppers research
 
 ## Disclaimer
 
-This project is an independent informational and discovery resource. Product availability, seller behavior, shipping timelines, QC results, and external directory pages can change over time. Users should verify all item details, prices, sizing, seller reputation, and shipping terms before placing an order.
+This project is an independent informational and discovery resource. Product availability, seller behavior, prices, shipping timelines, QC results, and external directory pages can change over time. Users should verify all item details, sizing, seller reputation, and shipping terms before placing an order.
 
 ---
 
 <p align="center">
   <strong>KakoBuy Spreadsheet 2026</strong><br>
-  Built for fast discovery, smarter QC, and cleaner agent-shopping research.
+  Find better. Check smarter. Ship with more confidence.
 </p>

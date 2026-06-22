@@ -64,7 +64,7 @@ echo "[3/7] Ensuring repository exists..."
 STATUS=$(curl -sS -o /tmp/kakobuy_repo_check.json -w '%{http_code}' -H "$AUTH_HEADER" -H "$ACCEPT_HEADER" "https://api.github.com/repos/$OWNER/$REPO")
 if [ "$STATUS" = "404" ]; then
   curl -fsS -X POST -H "$AUTH_HEADER" -H "$ACCEPT_HEADER" https://api.github.com/user/repos \
-    -d "{\"name\":\"$REPO\",\"private\":false,\"description\":\"KakoBuy Spreadsheet static SEO site for GitHub Pages\",\"has_issues\":true,\"has_wiki\":false}" >/tmp/kakobuy_repo_create.json
+    -d "{\"name\":\"$REPO\",\"private\":false,\"description\":\"Curated KakoBuy finds, QC notes, shipping guides, and category research for smarter agent shopping.\",\"has_issues\":true,\"has_wiki\":false}" >/tmp/kakobuy_repo_create.json
   echo "Repository created: https://github.com/$OWNER/$REPO"
 elif [ "$STATUS" = "200" ]; then
   echo "Repository already exists: https://github.com/$OWNER/$REPO"
