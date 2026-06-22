@@ -9,11 +9,9 @@ SITE_DIR="/home/zrg/kakobuy-spreadsheet"
 cd "$SITE_DIR"
 
 # SECURITY: Do not hardcode GitHub tokens or passwords in this file.
-# Usage without prompts:
+# Non-interactive usage:
 #   export GITHUB_TOKEN='your_github_pat_here'
 #   ./deploy_to_github_pages.sh
-#
-# If GITHUB_TOKEN is not set, the script prompts for it without echoing input.
 TOKEN="${GITHUB_TOKEN:-}"
 if [ -z "$TOKEN" ]; then
   printf 'GitHub token: '
@@ -28,6 +26,28 @@ fi
 
 AUTH_HEADER="Authorization: Bearer $TOKEN"
 ACCEPT_HEADER="Accept: application/vnd.github+json"
+
+askpass_file=""
+cleanup() {
+  if [ -n "$askpass_file" ] && [ -f "$askpass_file" ]; then
+    rm -f "$askpass_file"
+  fi
+}
+trap cleanup EXIT
+
+# Give git HTTPS credentials non-interactively, so git never asks for username/password.
+askpass_file=$(mktemp)
+cat > "$askpass_file" <<EOF
+#!/usr/bin/env bash
+case "\$1" in
+  *Username*) printf '%s\n' '$OWNER' ;;
+  *Password*) printf '%s\n' '$TOKEN' ;;
+  *) printf '%s\n' '$TOKEN' ;;
+esac
+EOF
+chmod 700 "$askpass_file"
+export GIT_ASKPASS="$askpass_file"
+export GIT_TERMINAL_PROMPT=0
 
 echo "[1/7] Running local predeploy check..."
 python3 ~/.hermes/skills/static-site-patterns/scripts/static_site_predeploy_check.py "$SITE_DIR" "$BASE"
@@ -69,8 +89,8 @@ fi
 echo "[5/7] Pushing to GitHub..."
 git remote remove origin 2>/dev/null || true
 git remote add origin "https://github.com/$OWNER/$REPO.git"
-# Use temporary in-memory auth header so token is not written into .git/config.
-git -c http.https://github.com/.extraheader="$AUTH_HEADER" push -u origin main --force
+# GIT_ASKPASS supplies username/token; GIT_TERMINAL_PROMPT=0 prevents any interactive prompt.
+git push -u origin main --force
 git remote set-url origin "https://github.com/$OWNER/$REPO.git"
 
 echo "[6/7] Enabling GitHub Pages from main / root..."
